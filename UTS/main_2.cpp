@@ -13,7 +13,7 @@ void tambahPasien(int nomor) {
     baru->nomor = nomor;
     baru->next = NULL;
 
-    if(head == NULL) {
+    if(head == NULL) { 
         head = baru;
     } else {
         Node* temp = head;
@@ -62,7 +62,6 @@ int main() {
         cout << "4. Keluar\n";
         cout << "Pilih: ";
         cin >> pilihan;
-
         switch(pilihan) {
             case 1:
                 cout << "Masukkan nomor antrian: ";
